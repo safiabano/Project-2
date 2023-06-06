@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 0;
+    height: 100vh;
+}
+h1{
+    transition: 1s linear;
+    
+}
+h1:hover{
+  color: coral;
+  transform: rotateX(160deg);
+}
